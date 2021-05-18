@@ -1,21 +1,19 @@
-# cpp-bmi
+# cpp-weekday-calculate
 
-BMI (Body Mass Index) ou conhecido como IMC (Índice de Massa Corporal) é reconhecido como um padrão internacional para avaliar o grau de sobrepeso e obesidade.
+O calendário gregoriano já existe há muito tempo e acostumamos a dividir a nossa vida em uma semana com sete dias.
 
-O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
+Mas já pensou se a partir de alguma data qualquer X é possível calcular qual dia da semana corresponde a data X?
 
-Estar no peso ideal é importante para aumentar a saúde, prevenindo doenças cardiovasculares e aumentar a qualidade de vida. 
+No vídeo do link [Como Descobrir o Dia da Semana de uma Data? | Matemática Rio](https://www.youtube.com/watch?v=u7NAy_kDZ3A) é demonstrada uma fórmula para descobrir o dia da semana de uma data qualquer.
 
-Assim, quem está abaixo do peso deve aumentar o volume muscular para aumentar de peso de forma saudável e quem está acima do peso, deve diminuir para ter uma qualidade de vida mais saudável.
+Implemente a fórmula e descubra o dia da semana de uma data qualquer.
+
+Desconsidere nesse momento, datas dos meses de janeiro e fevereiro.
 
 ## Exemplos de valores
 
-* *Abaixo do peso* - Peso = 55, Altura = 1.73, IMC = 18.3768
-
-* *Normal* - Peso = 66, Altura = 1.73, IMC = 22.0522
-
-* *Sobrepeso* - Peso = 80, Altura = 1.73, IMC = 26.7299
-
-* *Obesidade 1* - Peso = 90, Altura = 1.73, IMC = 30.0712
-
-* *Obesidade 2* - Peso = 110, Altura = 1.73, IMC = 36.7536
+* dia = 12, mes = 5, ano = 2014, diasemana = 2
+* dia = 23, mes = 3, ano = 2007, diasemana = 6
+* dia = 12, mes = 8, ano = 1977, diasemana = 6
+* dia = 11, mes = 5, ano = 1944, diasemana = 5
+* dia = 18, mes = 5, ano = 2021, diasemana = 3
